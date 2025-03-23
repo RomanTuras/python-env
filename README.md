@@ -16,11 +16,22 @@
 
 `pip install poetry`
 
-> Examples poetry commands
+> Create or init existings project:
 
 `poetry new <project_name>`
     or
 `poetry init`
+
+> Create lock:
+
+`poetry lock`
+
+> To Activate ENV:
+`source $(poetry env info --path)/bin/activate`
+
+> To Deactivate ENV: `deactivate`
+
+> Examples poetry commands:
 
 `poetry add aiosqlite`
 
@@ -31,11 +42,6 @@
 `poetry update`
 
 `poetry show`
-
-> To Activate ENV:
-`source $(poetry env info --path)/bin/activate`
-
-> To Deactivate ENV: `deactivate`
 
 `poetry run pytest`
 
